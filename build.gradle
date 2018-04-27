@@ -33,5 +33,8 @@ dependencies {
 
 generateGrammarSource {
     //outputDirectory = file("src/gen/java/")
+    //maxHeapSize = "64m"
+    arguments += ["-visitor", "-long-messages"]  
+    //-no-listener  
 }
 
